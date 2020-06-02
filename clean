@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rabbitmqctl stop
+kill -s TERM $(lsof -t -i :4000 -s TCP:LISTEN)

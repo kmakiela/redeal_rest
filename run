@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# start rabbitmq server
+rabbitmq-server &
+
+# give rabbit broker time to start
+sleep 10
+
+# elixir side
+cd redeal
+mix phx.server &
+sleep 5
+cd ..
+
+# python side
+cd backend
+python3 backend.py &
+sleep 5
+cd ..
+
+echo "Ready to work"

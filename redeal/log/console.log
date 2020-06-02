@@ -1,0 +1,869 @@
+2020-06-02 10:32:13.708 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-06-02 10:32:13.716 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-06-02 10:32:13.739 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-06-02 10:32:13.754 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-06-02 10:32:13.758 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-06-02 10:32:13.767 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-06-02 10:32:13.771 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-06-02 10:32:13.825 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 10:32:13.825 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 10:32:13.835 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-06-02 10:32:13.835 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-06-02 10:32:13.924 [info] <0.43.0> Application redeal started on node nonode@nohost
+2020-06-02 12:02:26.245 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 12:02:26.292 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 12:02:26.415 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 12:02:26.450 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 12:02:26.465 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 12:02:26.551 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 12:02:26.556 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 12:02:26.713 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 12:02:26.713 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 12:02:26.765 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 12:02:26.795 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 12:02:27.793 [error] <0.313.0> Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at undefined exit with reason {'EXIT',{undef,[{'Elixir.Redeal.RabbitHandler',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,...},...]}} in context start_error
+2020-06-02 12:02:27.795 [error] <0.311.0> CRASH REPORT Process <0.311.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,'Elixir.Redeal.RabbitHandler',{'EXIT',{undef,[{'Elixir.Redeal.RabbitHandler',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,...},...]}}}},...} in application_master:init/4 line 138
+2020-06-02 12:02:57.411 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 12:02:57.424 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 12:02:57.461 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 12:02:57.469 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 12:02:57.472 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 12:02:57.493 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 12:02:57.498 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 12:02:57.559 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 12:02:57.559 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 12:02:57.576 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 12:02:57.584 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 12:02:57.923 [error] <0.465.0>@Elixir.Redeal.RabbitHandler:init:22 CRASH REPORT Process <0.465.0> with 0 neighbours crashed with reason: no match of right hand value {error,econnrefused} in 'Elixir.Redeal.RabbitHandler':init/1 line 22
+2020-06-02 12:04:59.274 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 12:04:59.286 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 12:04:59.314 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 12:04:59.323 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 12:04:59.326 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 12:04:59.340 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 12:04:59.345 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 12:04:59.406 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 12:04:59.406 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 12:04:59.441 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 12:04:59.446 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 12:04:59.918 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 12:04:59.924 [error] <0.442.0> 'Elixir.Redeal.RabbitHandler' <0.442.0> received unexpected message in handle_info/2: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-ccfEHo5e7VNpvUZ6yMjTCA">>}}
+2020-06-02 12:05:28.158 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 12:05:28.167 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 12:05:28.197 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 12:05:28.209 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 12:05:28.217 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 12:05:28.232 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 12:05:28.240 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 12:05:28.289 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 12:05:28.289 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 12:05:28.297 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 12:05:28.301 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 12:05:28.385 [error] <0.339.0> Failed to start Ranch listener 'Elixir.RedealWeb.Endpoint.HTTP' in ranch_tcp:listen([{cacerts,'...'},{key,'...'},{cert,'...'},{port,4000}]) for reason eaddrinuse (address already in use)
+2020-06-02 12:05:45.658 [info] <0.44.0> Application file_system started on node nonode@nohost
+2020-06-02 12:05:45.683 [info] <0.44.0> Application phoenix_live_reload started on node nonode@nohost
+2020-06-02 12:16:02.746 [info] <0.60.0> SIGTERM received - shutting down
+2020-06-02 12:16:02.747 [error] <0.63.0> Supervisor {<0.63.0>,user_sup} had child at module user_sup at <0.64.0> exit with reason eio in context child_terminated
+2020-06-02 12:16:02.747 [error] <0.63.0> gen_server <0.63.0> terminated with reason: eio
+2020-06-02 12:16:02.748 [error] <0.255.0>@lager_console_backend:handle_event:179 gen_event lager_console_backend installed in lager_event terminated with reason: bad argument in call to io:put_chars(user, unicode, [["12",58,"16",58,"02",46,"746"]," ",[],"[","info","] ","SIGTERM received - shutting down","\r\n"]) in lager_console_backend:handle_event/2 line 179
+2020-06-02 12:16:02.759 [error] <0.63.0> CRASH REPORT Process <0.63.0> with 0 neighbours exited with reason: eio in gen_server:handle_common_reply/8 line 796
+2020-06-02 12:16:02.759 [error] <0.49.0> Supervisor kernel_sup had child user started with user_sup:start() at <0.63.0> exit with reason eio in context child_terminated
+2020-06-02 13:01:38.620 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 13:01:38.628 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 13:01:38.645 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 13:01:38.652 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 13:01:38.658 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 13:01:38.666 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 13:01:38.672 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 13:01:38.714 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 13:01:38.714 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 13:01:38.725 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 13:01:38.728 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 13:01:39.000 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 13:01:39.003 [error] <0.442.0> 'Elixir.Redeal.RabbitHandler' <0.442.0> received unexpected message in handle_info/2: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-QteqIOIuLhV1-_wKQxU0cw">>}}
+2020-06-02 13:02:14.872 [info] <0.44.0> Application file_system started on node nonode@nohost
+2020-06-02 13:02:14.888 [info] <0.44.0> Application phoenix_live_reload started on node nonode@nohost
+2020-06-02 13:04:24.584 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 13:04:24.593 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 13:04:24.654 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 13:04:24.675 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 13:04:24.679 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 13:04:24.696 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 13:04:24.709 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 13:04:24.771 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 13:04:24.772 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 13:04:24.801 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 13:04:24.811 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 13:04:25.145 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 13:04:25.152 [error] <0.465.0> 'Elixir.Redeal.RabbitHandler' <0.465.0> received unexpected message in handle_info/2: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-sAf4Ci2dCKNgJBIPgzvaJQ">>}}
+2020-06-02 13:13:59.835 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 13:13:59.843 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 13:13:59.861 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 13:13:59.871 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 13:13:59.873 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 13:13:59.883 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 13:13:59.889 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 13:13:59.937 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 13:13:59.937 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 13:13:59.943 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 13:13:59.946 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 13:14:00.173 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 13:14:00.173 [error] <0.465.0> 'Elixir.Redeal.RabbitHandler' <0.465.0> received unexpected message in handle_info/2: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-d9Gys7urERy2j3fVR8nXgg">>}}
+2020-06-02 13:14:10.337 [info] <0.44.0> Application file_system started on node nonode@nohost
+2020-06-02 13:14:10.347 [info] <0.44.0> Application phoenix_live_reload started on node nonode@nohost
+2020-06-02 13:15:04.711 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 13:15:04.718 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 13:15:04.733 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 13:15:04.742 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 13:15:04.745 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 13:15:04.754 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 13:15:04.759 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 13:15:04.794 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 13:15:04.795 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 13:15:04.801 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 13:15:04.803 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 13:15:05.018 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 13:15:05.019 [error] <0.460.0> 'Elixir.Redeal.RabbitHandler' <0.460.0> received unexpected message in handle_info/2: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-r7KBZ7FCU6pc0xfqzh3z5g">>}}
+2020-06-02 13:15:39.884 [error] <0.480.0> CRASH REPORT Process <0.480.0> with 0 neighbours exited with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate">>,<<"accept-language">> => <<"en-US,en;q=0.5">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"...">>,...},...}},...},...},...},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130 in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 13:15:39.896 [error] <0.480.0> Cowboy stream 2 with ranch listener 'Elixir.RedealWeb.Endpoint.HTTP' and connection process <0.477.0> had its request process exit with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate">>,<<"accept-language">> => <<"en-US,en;q=0.5">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"...">>,...},...}},...},...},...},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 13:31:26.066 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 13:31:26.074 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 13:31:26.097 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 13:31:26.103 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 13:31:26.105 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 13:31:26.114 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 13:31:26.117 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 13:31:26.163 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 13:31:26.163 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 13:31:26.171 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 13:31:26.177 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 13:31:26.444 [error] <0.442.0> 'Elixir.Redeal.RabbitHandler' <0.442.0> received unexpected message in handle_info/2: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-nn1iwbwbX4YKFabLpJwpYA">>}}
+2020-06-02 13:31:26.444 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 13:37:51.315 [error] <0.442.0> 'Elixir.Redeal.RabbitHandler' <0.442.0> received unexpected message in handle_info/2: {basic_deliver,<<"got that">>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-nn1iwbwbX4YKFabLpJwpYA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"exchange">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<"response">>,timestamp => undefined,type => undefined,user_id => undefined}}
+2020-06-02 13:39:03.571 [error] <0.442.0> 'Elixir.Redeal.RabbitHandler' <0.442.0> received unexpected message in handle_info/2: {basic_deliver,<<"got that">>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-nn1iwbwbX4YKFabLpJwpYA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 2,exchange => <<"exchange">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<"response">>,timestamp => undefined,type => undefined,user_id => undefined}}
+2020-06-02 13:41:53.251 [error] <0.442.0> 'Elixir.Redeal.RabbitHandler' <0.442.0> received unexpected message in handle_info/2: {basic_deliver,<<"got that">>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-nn1iwbwbX4YKFabLpJwpYA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 3,exchange => <<"exchange">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<"response">>,timestamp => undefined,type => undefined,user_id => undefined}}
+2020-06-02 13:41:53.251 [error] <0.442.0> 'Elixir.Redeal.RabbitHandler' <0.442.0> received unexpected message in handle_info/2: {basic_deliver,<<"got that">>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-nn1iwbwbX4YKFabLpJwpYA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 4,exchange => <<"exchange">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<"response">>,timestamp => undefined,type => undefined,user_id => undefined}}
+2020-06-02 13:50:05.818 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 13:50:05.826 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 13:50:05.843 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 13:50:05.850 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 13:50:05.855 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 13:50:05.862 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 13:50:05.868 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 13:50:05.910 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 13:50:05.910 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 13:50:05.917 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 13:50:05.920 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 13:50:06.151 [error] <0.465.0> 'Elixir.Redeal.RabbitHandler' <0.465.0> received unexpected message in handle_info/2: {basic_consume_ok,#{consumer_tag => <<"amq.ctag-I2G7JEDrGlKr1oYkDQ014g">>}}
+2020-06-02 13:50:06.151 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 13:50:11.007 [error] <0.465.0> 'Elixir.Redeal.RabbitHandler' <0.465.0> received unexpected message in handle_info/2: {basic_deliver,<<"got that">>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-I2G7JEDrGlKr1oYkDQ014g">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"exchange">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<"response">>,timestamp => undefined,type => undefined,user_id => undefined}}
+2020-06-02 13:50:11.008 [error] <0.465.0> 'Elixir.Redeal.RabbitHandler' <0.465.0> received unexpected message in handle_info/2: {basic_deliver,<<"got that">>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-I2G7JEDrGlKr1oYkDQ014g">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 2,exchange => <<"exchange">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<"response">>,timestamp => undefined,type => undefined,user_id => undefined}}
+2020-06-02 13:51:30.833 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 13:51:30.840 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 13:51:30.863 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 13:51:30.869 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 13:51:30.871 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 13:51:30.877 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 13:51:30.880 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 13:51:30.942 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 13:51:30.942 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 13:51:30.956 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 13:51:30.962 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 13:51:31.217 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 13:51:31.221 [error] <0.465.0> gen_server <0.465.0> terminated with reason: {badkey,connection,#{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.468.0>},pid => <0.479.0>},conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.468.0>}}} in 'Elixir.Redeal.RabbitHandler':terminate/2 line 68
+2020-06-02 13:51:31.237 [error] <0.465.0> CRASH REPORT Process <0.465.0> with 0 neighbours crashed with reason: {badkey,connection,#{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.468.0>},pid => <0.479.0>},conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.468.0>}}} in 'Elixir.Redeal.RabbitHandler':terminate/2 line 68
+2020-06-02 13:51:31.238 [error] <0.336.0> Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.465.0> exit with reason {badkey,connection,#{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.468.0>},pid => <0.479.0>},conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.468.0>}}} in 'Elixir.Redeal.RabbitHandler':terminate/2 line 68 in context child_terminated
+2020-06-02 13:51:31.263 [error] <0.482.0> gen_server <0.482.0> terminated with reason: {badkey,connection,#{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.485.0>},pid => <0.494.0>},conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.485.0>}}} in 'Elixir.Redeal.RabbitHandler':terminate/2 line 68
+2020-06-02 13:51:31.264 [error] <0.482.0> CRASH REPORT Process <0.482.0> with 0 neighbours crashed with reason: {badkey,connection,#{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.485.0>},pid => <0.494.0>},conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.485.0>}}} in 'Elixir.Redeal.RabbitHandler':terminate/2 line 68
+2020-06-02 13:51:31.264 [error] <0.336.0> Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.482.0> exit with reason {badkey,connection,#{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.485.0>},pid => <0.494.0>},conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.485.0>}}} in 'Elixir.Redeal.RabbitHandler':terminate/2 line 68 in context child_terminated
+2020-06-02 13:51:31.286 [error] <0.497.0> gen_server <0.497.0> terminated with reason: {badkey,connection,#{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.500.0>},pid => <0.509.0>},conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.500.0>}}} in 'Elixir.Redeal.RabbitHandler':terminate/2 line 68
+2020-06-02 13:51:31.286 [error] <0.497.0> CRASH REPORT Process <0.497.0> with 0 neighbours crashed with reason: {badkey,connection,#{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.500.0>},pid => <0.509.0>},conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.500.0>}}} in 'Elixir.Redeal.RabbitHandler':terminate/2 line 68
+2020-06-02 13:51:31.286 [error] <0.336.0> Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.497.0> exit with reason {badkey,connection,#{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.500.0>},pid => <0.509.0>},conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.500.0>}}} in 'Elixir.Redeal.RabbitHandler':terminate/2 line 68 in context child_terminated
+2020-06-02 13:51:31.308 [error] <0.512.0> gen_server <0.512.0> terminated with reason: {badkey,connection,#{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.515.0>},pid => <0.524.0>},conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.515.0>}}} in 'Elixir.Redeal.RabbitHandler':terminate/2 line 68
+2020-06-02 13:51:31.309 [error] <0.512.0> CRASH REPORT Process <0.512.0> with 0 neighbours crashed with reason: {badkey,connection,#{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.515.0>},pid => <0.524.0>},conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.515.0>}}} in 'Elixir.Redeal.RabbitHandler':terminate/2 line 68
+2020-06-02 13:51:31.309 [error] <0.336.0> Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.512.0> exit with reason {badkey,connection,#{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.515.0>},pid => <0.524.0>},conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.515.0>}}} in 'Elixir.Redeal.RabbitHandler':terminate/2 line 68 in context child_terminated
+2020-06-02 13:51:31.309 [error] <0.336.0> Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.512.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-06-02 13:51:31.310 [info] <0.44.0> Application redeal exited with reason: shutdown
+2020-06-02 13:52:38.501 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 13:52:38.509 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 13:52:38.523 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 13:52:38.532 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 13:52:38.534 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 13:52:38.546 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 13:52:38.550 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 13:52:38.589 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 13:52:38.589 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 13:52:38.596 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 13:52:38.598 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 13:52:38.796 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 13:52:38.803 [error] <0.465.0>@Elixir.Redeal.RabbitHandler:handle_info:61 gen_server <0.465.0> terminated with reason: no function clause matching 'Elixir.Redeal.RabbitHandler':handle_info({basic_consume_ok,#{consumer_tag => <<"amq.ctag-60MSU4SEhdVUF_LUQZOHGw">>}}, #{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 61
+2020-06-02 13:52:38.822 [error] <0.465.0>@Elixir.Redeal.RabbitHandler:handle_info:61 CRASH REPORT Process <0.465.0> with 0 neighbours crashed with reason: no function clause matching 'Elixir.Redeal.RabbitHandler':handle_info({basic_consume_ok,#{consumer_tag => <<"amq.ctag-60MSU4SEhdVUF_LUQZOHGw">>}}, #{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 61
+2020-06-02 13:52:38.822 [error] <0.336.0>@Elixir.Redeal.RabbitHandler:handle_info:61 Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.465.0> exit with reason no function clause matching 'Elixir.Redeal.RabbitHandler':handle_info({basic_consume_ok,#{consumer_tag => <<"amq.ctag-60MSU4SEhdVUF_LUQZOHGw">>}}, #{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 61 in context child_terminated
+2020-06-02 13:52:38.837 [error] <0.482.0>@Elixir.Redeal.RabbitHandler:handle_info:61 gen_server <0.482.0> terminated with reason: no function clause matching 'Elixir.Redeal.RabbitHandler':handle_info({basic_consume_ok,#{consumer_tag => <<"amq.ctag-xfoUa97BPC-EMROiQm-Jsg">>}}, #{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 61
+2020-06-02 13:52:38.838 [error] <0.482.0>@Elixir.Redeal.RabbitHandler:handle_info:61 CRASH REPORT Process <0.482.0> with 0 neighbours crashed with reason: no function clause matching 'Elixir.Redeal.RabbitHandler':handle_info({basic_consume_ok,#{consumer_tag => <<"amq.ctag-xfoUa97BPC-EMROiQm-Jsg">>}}, #{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 61
+2020-06-02 13:52:38.838 [error] <0.336.0>@Elixir.Redeal.RabbitHandler:handle_info:61 Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.482.0> exit with reason no function clause matching 'Elixir.Redeal.RabbitHandler':handle_info({basic_consume_ok,#{consumer_tag => <<"amq.ctag-xfoUa97BPC-EMROiQm-Jsg">>}}, #{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 61 in context child_terminated
+2020-06-02 13:52:38.862 [error] <0.497.0>@Elixir.Redeal.RabbitHandler:handle_info:61 gen_server <0.497.0> terminated with reason: no function clause matching 'Elixir.Redeal.RabbitHandler':handle_info({basic_consume_ok,#{consumer_tag => <<"amq.ctag-H8M2Q-z8E0nCXrUCeiCV5g">>}}, #{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 61
+2020-06-02 13:52:38.864 [error] <0.497.0>@Elixir.Redeal.RabbitHandler:handle_info:61 CRASH REPORT Process <0.497.0> with 0 neighbours crashed with reason: no function clause matching 'Elixir.Redeal.RabbitHandler':handle_info({basic_consume_ok,#{consumer_tag => <<"amq.ctag-H8M2Q-z8E0nCXrUCeiCV5g">>}}, #{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 61
+2020-06-02 13:52:38.864 [error] <0.336.0>@Elixir.Redeal.RabbitHandler:handle_info:61 Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.497.0> exit with reason no function clause matching 'Elixir.Redeal.RabbitHandler':handle_info({basic_consume_ok,#{consumer_tag => <<"amq.ctag-H8M2Q-z8E0nCXrUCeiCV5g">>}}, #{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 61 in context child_terminated
+2020-06-02 13:52:38.882 [error] <0.512.0>@Elixir.Redeal.RabbitHandler:handle_info:61 gen_server <0.512.0> terminated with reason: no function clause matching 'Elixir.Redeal.RabbitHandler':handle_info({basic_consume_ok,#{consumer_tag => <<"amq.ctag-zIlDGbNBDrhiFcI-cStLcQ">>}}, #{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 61
+2020-06-02 13:52:38.883 [error] <0.512.0>@Elixir.Redeal.RabbitHandler:handle_info:61 CRASH REPORT Process <0.512.0> with 0 neighbours crashed with reason: no function clause matching 'Elixir.Redeal.RabbitHandler':handle_info({basic_consume_ok,#{consumer_tag => <<"amq.ctag-zIlDGbNBDrhiFcI-cStLcQ">>}}, #{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 61
+2020-06-02 13:52:38.883 [error] <0.336.0>@Elixir.Redeal.RabbitHandler:handle_info:61 Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.512.0> exit with reason no function clause matching 'Elixir.Redeal.RabbitHandler':handle_info({basic_consume_ok,#{consumer_tag => <<"amq.ctag-zIlDGbNBDrhiFcI-cStLcQ">>}}, #{channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',...},...},...}) line 61 in context child_terminated
+2020-06-02 13:52:38.883 [error] <0.336.0> Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.512.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-06-02 13:52:38.885 [info] <0.44.0> Application redeal exited with reason: shutdown
+2020-06-02 13:54:57.334 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 13:54:57.342 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 13:54:57.357 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 13:54:57.362 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 13:54:57.364 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 13:54:57.375 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 13:54:57.382 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 13:54:57.433 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 13:54:57.433 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 13:54:57.441 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 13:54:57.443 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 13:54:57.682 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 13:55:42.691 [error] <0.468.0> gen_server <0.468.0> terminated with reason: socket_closed_unexpectedly
+2020-06-02 13:55:42.691 [error] <0.468.0> CRASH REPORT Process <0.468.0> with 0 neighbours exited with reason: socket_closed_unexpectedly in gen_server:handle_common_reply/8 line 796
+2020-06-02 13:55:42.692 [error] <0.466.0> Supervisor {<0.466.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.467.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"localhost",5672,0,0,10,50000,none,...}) at <0.468.0> exit with reason socket_closed_unexpectedly in context child_terminated
+2020-06-02 13:55:42.692 [error] <0.466.0> Supervisor {<0.466.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.467.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"localhost",5672,0,0,10,50000,none,...}) at <0.468.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-06-02 13:56:43.742 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 13:56:43.765 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 13:56:43.821 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 13:56:43.840 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 13:56:43.846 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 13:56:43.874 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 13:56:43.881 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 13:56:43.928 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 13:56:43.928 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 13:56:43.935 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 13:56:43.937 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 13:56:44.172 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 13:59:14.234 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 13:59:14.241 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 13:59:14.262 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 13:59:14.267 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 13:59:14.270 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 13:59:14.276 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 13:59:14.279 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 13:59:14.325 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 13:59:14.325 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 13:59:14.333 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 13:59:14.340 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 13:59:14.589 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 14:24:10.019 [error] <0.474.0> gen_server <0.474.0> terminated with reason: {socket_error,timeout}
+2020-06-02 14:24:10.019 [error] <0.468.0> gen_server <0.468.0> terminated with reason: {socket_error,timeout}
+2020-06-02 14:24:10.019 [error] <0.468.0> CRASH REPORT Process <0.468.0> with 0 neighbours exited with reason: {socket_error,timeout} in gen_server:handle_common_reply/8 line 796
+2020-06-02 14:24:10.019 [error] <0.466.0> Supervisor {<0.466.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.467.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"localhost",5672,0,0,10,50000,none,...}) at <0.468.0> exit with reason {socket_error,timeout} in context child_terminated
+2020-06-02 14:24:10.020 [error] <0.466.0> Supervisor {<0.466.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.467.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"localhost",5672,0,0,10,50000,none,...}) at <0.468.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-06-02 14:25:55.805 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 14:25:55.812 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 14:25:55.827 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 14:25:55.834 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 14:25:55.836 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 14:25:55.844 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 14:25:55.851 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 14:25:55.886 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 14:25:55.886 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 14:25:55.894 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 14:25:55.897 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 14:25:56.123 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 14:27:38.763 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 14:27:38.784 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 14:27:38.819 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 14:27:38.834 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 14:27:38.837 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 14:27:38.848 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 14:27:38.852 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 14:27:38.905 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 14:27:38.906 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 14:27:38.922 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 14:27:38.932 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 14:27:39.179 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 14:29:56.313 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 14:29:56.320 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 14:29:56.335 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 14:29:56.341 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 14:29:56.343 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 14:29:56.350 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 14:29:56.353 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 14:29:56.401 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 14:29:56.401 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 14:29:56.411 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 14:29:56.415 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 14:29:56.630 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 14:46:24.263 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 14:46:24.277 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 14:46:24.311 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 14:46:24.319 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 14:46:24.323 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 14:46:24.350 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 14:46:24.363 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 14:46:24.438 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 14:46:24.438 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 14:46:24.450 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 14:46:24.456 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 14:46:24.840 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 14:46:41.911 [error] <0.483.0> CRASH REPORT Process <0.483.0> with 0 neighbours exited with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented">>,protocol => 'Elixir.Jason.Encoder',value => {deal,<<"got that">>}},[{'Elixir.Jason','encode!',2,[{file,"lib/jason.ex"},{line,150}]},{'Elixir.RedealWeb.DealController',get_random,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,8}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_cont..."},...]},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130 in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 14:46:42.057 [error] <0.483.0> Cowboy stream 1 with ranch listener 'Elixir.RedealWeb.Endpoint.HTTP' and connection process <0.482.0> had its request process exit with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented">>,protocol => 'Elixir.Jason.Encoder',value => {deal,<<"got that">>}},[{'Elixir.Jason','encode!',2,[{file,"lib/jason.ex"},{line,150}]},{'Elixir.RedealWeb.DealController',get_random,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,8}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_cont..."},...]},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 14:46:42.410 [info] <0.44.0> Application file_system started on node nonode@nohost
+2020-06-02 14:46:42.609 [info] <0.44.0> Application phoenix_live_reload started on node nonode@nohost
+2020-06-02 14:48:07.837 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 14:48:07.850 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 14:48:07.914 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 14:48:07.949 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 14:48:07.968 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 14:48:08.049 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 14:48:08.104 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 14:48:08.357 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 14:48:08.357 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 14:48:08.435 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 14:48:08.502 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 14:48:10.343 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 14:48:10.624 [info] <0.44.0> Application file_system started on node nonode@nohost
+2020-06-02 14:48:10.678 [info] <0.44.0> Application phoenix_live_reload started on node nonode@nohost
+2020-06-02 14:48:13.324 [error] <0.494.0> CRASH REPORT Process <0.494.0> with 0 neighbours exited with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.MatchError',term => [{deal,<<"got that">>}]},[{'Elixir.Redeal.RabbitHandler',wait_for_response,0,[{file,"lib/redeal/rabbit_handler.ex"},{line,20}]},{'Elixir.RedealWeb.DealController',get_random,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,7}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},{'Elixir.RedealWeb.DealController',phoenix_controller_pipeline,2,[{file,...},...]},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130 in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 14:48:13.336 [error] <0.494.0> Cowboy stream 1 with ranch listener 'Elixir.RedealWeb.Endpoint.HTTP' and connection process <0.493.0> had its request process exit with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.MatchError',term => [{deal,<<"got that">>}]},[{'Elixir.Redeal.RabbitHandler',wait_for_response,0,[{file,"lib/redeal/rabbit_handler.ex"},{line,20}]},{'Elixir.RedealWeb.DealController',get_random,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,7}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},{'Elixir.RedealWeb.DealController',phoenix_controller_pipeline,2,[{file,...},...]},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 14:48:15.865 [error] <0.501.0> CRASH REPORT Process <0.501.0> with 0 neighbours exited with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.MatchError',term => [{deal,<<"got that">>}]},[{'Elixir.Redeal.RabbitHandler',wait_for_response,0,[{file,"lib/redeal/rabbit_handler.ex"},{line,20}]},{'Elixir.RedealWeb.DealController',get_random,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,7}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},{'Elixir.RedealWeb.DealController',phoenix_controller_pipeline,2,[{file,...},...]},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130 in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 14:48:15.866 [error] <0.501.0> Cowboy stream 3 with ranch listener 'Elixir.RedealWeb.Endpoint.HTTP' and connection process <0.493.0> had its request process exit with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.MatchError',term => [{deal,<<"got that">>}]},[{'Elixir.Redeal.RabbitHandler',wait_for_response,0,[{file,"lib/redeal/rabbit_handler.ex"},{line,20}]},{'Elixir.RedealWeb.DealController',get_random,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,7}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},{'Elixir.RedealWeb.DealController',phoenix_controller_pipeline,2,[{file,...},...]},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 14:48:38.983 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 14:48:39.009 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 14:48:39.098 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 14:48:39.130 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 14:48:39.144 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 14:48:39.210 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 14:48:39.216 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 14:48:39.334 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 14:48:39.334 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 14:48:39.369 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 14:48:39.381 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 14:48:42.331 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 14:48:42.679 [info] <0.44.0> Application file_system started on node nonode@nohost
+2020-06-02 14:48:42.974 [info] <0.44.0> Application phoenix_live_reload started on node nonode@nohost
+2020-06-02 14:57:07.100 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 14:57:07.107 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 14:57:07.124 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 14:57:07.131 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 14:57:07.133 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 14:57:07.148 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 14:57:07.150 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 14:57:07.193 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 14:57:07.193 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 14:57:07.201 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 14:57:07.216 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 14:57:07.486 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 14:57:19.056 [error] <0.485.0> CRASH REPORT Process <0.485.0> with 0 neighbours exited with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.MatchError',term => []},[{'Elixir.Redeal.RabbitHandler',wait_for_response,1,[{file,"lib/redeal/rabbit_handler.ex"},{line,19}]},{'Elixir.RedealWeb.DealController',get_one_nt,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,16}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},{'Elixir.RedealWeb.DealController',phoenix_controller_pipeline,2,[{file,"lib/redeal_web/..."},...]},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130 in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 14:57:19.060 [error] <0.485.0> Cowboy stream 2 with ranch listener 'Elixir.RedealWeb.Endpoint.HTTP' and connection process <0.482.0> had its request process exit with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.MatchError',term => []},[{'Elixir.Redeal.RabbitHandler',wait_for_response,1,[{file,"lib/redeal/rabbit_handler.ex"},{line,19}]},{'Elixir.RedealWeb.DealController',get_one_nt,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,16}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},{'Elixir.RedealWeb.DealController',phoenix_controller_pipeline,2,[{file,"lib/redeal_web/..."},...]},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 14:57:19.268 [info] <0.44.0> Application file_system started on node nonode@nohost
+2020-06-02 14:57:19.283 [info] <0.44.0> Application phoenix_live_reload started on node nonode@nohost
+2020-06-02 14:59:43.580 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 14:59:43.588 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 14:59:43.608 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 14:59:43.617 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 14:59:43.619 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 14:59:43.628 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 14:59:43.631 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 14:59:43.675 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 14:59:43.675 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 14:59:43.683 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 14:59:43.686 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 14:59:43.966 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 14:59:44.572 [info] <0.44.0> Application file_system started on node nonode@nohost
+2020-06-02 14:59:44.592 [info] <0.44.0> Application phoenix_live_reload started on node nonode@nohost
+2020-06-02 15:01:27.897 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 15:01:27.904 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 15:01:27.918 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 15:01:27.924 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 15:01:27.927 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 15:01:27.934 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 15:01:27.937 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 15:01:27.982 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 15:01:27.982 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 15:01:27.994 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 15:01:27.997 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 15:01:28.209 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 15:01:57.268 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 15:01:57.276 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 15:01:57.299 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 15:01:57.304 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 15:01:57.307 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 15:01:57.314 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 15:01:57.317 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 15:01:57.353 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 15:01:57.353 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 15:01:57.364 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 15:01:57.366 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 15:01:57.610 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 15:09:43.372 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 15:09:43.380 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 15:09:43.399 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 15:09:43.411 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 15:09:43.416 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 15:09:43.425 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 15:09:43.428 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 15:09:43.467 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 15:09:43.467 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 15:09:43.483 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 15:09:43.485 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 15:09:43.911 [error] emulator Error in process <0.481.0> with exit value:
+{badarg,[{erlang,monitor,[process,[{no_ack,'Elixir.True'}]],[]},{'Elixir.AMQP.Channel.ReceiverManager','-spawn_receiver/2-fun-0-',2,[{file,"lib/amqp/channel/receiver_manager.ex"},{line,111}]}]}
+2020-06-02 15:09:43.914 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 15:09:43.919 [error] <0.478.0> gen_server <0.478.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-06-02 15:09:43.929 [error] <0.478.0> CRASH REPORT Process <0.478.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-06-02 15:09:43.930 [error] <0.477.0> Supervisor {<0.477.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:52990 -> 127.0.0.1:5672">>,1}) at <0.478.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-06-02 15:09:43.930 [error] <0.477.0> Supervisor {<0.477.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:52990 -> 127.0.0.1:5672">>,1}) at <0.478.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-06-02 15:10:12.978 [error] <0.465.0>@gen_server:call gen_server 'Elixir.RabbitHandler' terminated with reason: no such process or port in call to gen_server:call(<0.479.0>, {close,200,<<"Goodbye">>}, 60000) in gen_server:call/3 line 246
+2020-06-02 15:10:12.981 [error] <0.465.0>@gen_server:call CRASH REPORT Process 'Elixir.RabbitHandler' with 0 neighbours exited with reason: no such process or port in call to gen_server:call(<0.479.0>, {close,200,<<"Goodbye">>}, 60000) in gen_server:call/3 line 246
+2020-06-02 15:10:12.982 [error] <0.336.0>@gen_server:call Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.465.0> exit with reason no such process or port in call to gen_server:call(<0.479.0>, {close,200,<<"Goodbye">>}, 60000) in context child_terminated
+2020-06-02 15:10:12.995 [error] emulator Error in process <0.499.0> with exit value:
+{badarg,[{erlang,monitor,[process,[{no_ack,'Elixir.True'}]],[]},{'Elixir.AMQP.Channel.ReceiverManager','-spawn_receiver/2-fun-0-',2,[{file,"lib/amqp/channel/receiver_manager.ex"},{line,111}]}]}
+2020-06-02 15:10:19.521 [info] <0.472.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,83,51,76,77,71,121,77,51,99,77,53,45,67,119,65,50,102,108,122,114,119,81,0,0,0,0,0,0,0,27,0,8,101,120,99,104,97,110,103,101,8,114,101,115,112,111,110,115,101>>} for invalid or closed channel number 1
+2020-06-02 15:10:19.521 [info] <0.472.0> Dropping frame {content_header,60,0,6,<<0,0>>} for invalid or closed channel number 1
+2020-06-02 15:10:19.521 [info] <0.472.0> Dropping frame {content_body,<<"Szymon">>} for invalid or closed channel number 1
+2020-06-02 15:10:19.522 [error] <0.496.0> gen_server <0.496.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-06-02 15:10:19.522 [info] <0.472.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,83,51,76,77,71,121,77,51,99,77,53,45,67,119,65,50,102,108,122,114,119,81,0,0,0,0,0,0,0,28,0,8,101,120,99,104,97,110,103,101,8,114,101,115,112,111,110,115,101>>} for invalid or closed channel number 1
+2020-06-02 15:10:19.523 [info] <0.472.0> Dropping frame {content_header,60,0,6,<<0,0>>} for invalid or closed channel number 1
+2020-06-02 15:10:19.524 [error] <0.496.0> CRASH REPORT Process <0.496.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-06-02 15:10:19.524 [info] <0.472.0> Dropping frame {content_body,<<"Szymon">>} for invalid or closed channel number 1
+2020-06-02 15:10:19.526 [error] <0.497.0> gen_server <0.497.0> terminated with reason: {unexpected_delivery_and_no_default_consumer,{gen_server2,call,[<0.496.0>,{consumer_call,{'basic.deliver',<<"amq.ctag-uOfeFLq2H3eqG2PEKFi8lQ">>,1,false,<<"exchange">>,<<"response">>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"Szymon">>}},60000]}} in gen_server2:call/3 line 346
+2020-06-02 15:10:19.526 [error] <0.495.0> Supervisor {<0.495.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:52997 -> 127.0.0.1:5672">>,1}) at <0.496.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-06-02 15:10:19.526 [error] <0.495.0> Supervisor {<0.495.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:52997 -> 127.0.0.1:5672">>,1}) at <0.496.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-06-02 15:10:19.526 [info] <0.472.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,83,51,76,77,71,121,77,51,99,77,53,45,67,119,65,50,102,108,122,114,119,81,0,0,0,0,0,0,0,29,0,8,101,120,99,104,97,110,103,101,8,114,101,115,112,111,110,115,101>>} for invalid or closed channel number 1
+2020-06-02 15:10:19.526 [info] <0.472.0> Dropping frame {content_header,60,0,6,<<0,0>>} for invalid or closed channel number 1
+2020-06-02 15:10:19.526 [info] <0.472.0> Dropping frame {content_body,<<"Szymon">>} for invalid or closed channel number 1
+2020-06-02 15:10:19.527 [info] <0.490.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,117,79,102,101,70,76,113,50,72,51,101,113,71,50,80,69,75,70,105,56,108,81,0,0,0,0,0,0,0,4,0,8,101,120,99,104,97,110,103,101,8,114,101,115,112,111,110,115,101>>} for invalid or closed channel number 1
+2020-06-02 15:10:19.527 [info] <0.490.0> Dropping frame {content_header,60,0,6,<<0,0>>} for invalid or closed channel number 1
+2020-06-02 15:10:19.527 [info] <0.472.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,83,51,76,77,71,121,77,51,99,77,53,45,67,119,65,50,102,108,122,114,119,81,0,0,0,0,0,0,0,30,0,8,101,120,99,104,97,110,103,101,8,114,101,115,112,111,110,115,101>>} for invalid or closed channel number 1
+2020-06-02 15:10:19.527 [info] <0.490.0> Dropping frame {content_body,<<"Szymon">>} for invalid or closed channel number 1
+2020-06-02 15:10:19.528 [info] <0.472.0> Dropping frame {content_header,60,0,6,<<0,0>>} for invalid or closed channel number 1
+2020-06-02 15:10:19.528 [info] <0.472.0> Dropping frame {content_body,<<"Szymon">>} for invalid or closed channel number 1
+2020-06-02 15:10:19.528 [info] <0.472.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,83,51,76,77,71,121,77,51,99,77,53,45,67,119,65,50,102,108,122,114,119,81,0,0,0,0,0,0,0,31,0,8,101,120,99,104,97,110,103,101,8,114,101,115,112,111,110,115,101>>} for invalid or closed channel number 1
+2020-06-02 15:10:19.529 [info] <0.472.0> Dropping frame {content_header,60,0,6,<<0,0>>} for invalid or closed channel number 1
+2020-06-02 15:10:19.529 [info] <0.472.0> Dropping frame {content_body,<<"Szymon">>} for invalid or closed channel number 1
+2020-06-02 15:10:37.513 [error] <0.485.0>@gen_server:call gen_server 'Elixir.RabbitHandler' terminated with reason: no such process or port in call to gen_server:call(<0.497.0>, {close,200,<<"Goodbye">>}, 60000) in gen_server:call/3 line 246
+2020-06-02 15:10:37.515 [error] <0.485.0>@gen_server:call CRASH REPORT Process 'Elixir.RabbitHandler' with 0 neighbours exited with reason: no such process or port in call to gen_server:call(<0.497.0>, {close,200,<<"Goodbye">>}, 60000) in gen_server:call/3 line 246
+2020-06-02 15:10:37.520 [error] <0.336.0>@gen_server:call Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.485.0> exit with reason no such process or port in call to gen_server:call(<0.497.0>, {close,200,<<"Goodbye">>}, 60000) in context child_terminated
+2020-06-02 15:10:37.543 [error] emulator Error in process <0.522.0> with exit value:
+{badarg,[{erlang,monitor,[process,[{no_ack,'Elixir.True'}]],[]},{'Elixir.AMQP.Channel.ReceiverManager','-spawn_receiver/2-fun-0-',2,[{file,"lib/amqp/channel/receiver_manager.ex"},{line,111}]}]}
+2020-06-02 15:10:39.593 [info] <0.490.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,117,79,102,101,70,76,113,50,72,51,101,113,71,50,80,69,75,70,105,56,108,81,0,0,0,0,0,0,0,5,0,8,101,120,99,104,97,110,103,101,8,114,101,115,112,111,110,115,101>>} for invalid or closed channel number 1
+2020-06-02 15:10:39.594 [info] <0.490.0> Dropping frame {content_header,60,0,6,<<0,0>>} for invalid or closed channel number 1
+2020-06-02 15:10:39.594 [info] <0.490.0> Dropping frame {content_body,<<"Szymon">>} for invalid or closed channel number 1
+2020-06-02 15:11:05.980 [info] <0.472.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,83,51,76,77,71,121,77,51,99,77,53,45,67,119,65,50,102,108,122,114,119,81,0,0,0,0,0,0,0,32,0,8,101,120,99,104,97,110,103,101,8,114,101,115,112,111,110,115,101>>} for invalid or closed channel number 1
+2020-06-02 15:11:05.981 [info] <0.472.0> Dropping frame {content_header,60,0,6,<<0,0>>} for invalid or closed channel number 1
+2020-06-02 15:11:05.981 [info] <0.472.0> Dropping frame {content_body,<<"Szymon">>} for invalid or closed channel number 1
+2020-06-02 15:11:22.108 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 15:11:22.117 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 15:11:22.136 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 15:11:22.141 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 15:11:22.144 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 15:11:22.161 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 15:11:22.165 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 15:11:22.214 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 15:11:22.214 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 15:11:22.231 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 15:11:22.234 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 15:11:22.499 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 15:14:54.470 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 15:14:54.477 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 15:14:54.493 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 15:14:54.500 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 15:14:54.503 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 15:14:54.511 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 15:14:54.514 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 15:14:54.554 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 15:14:54.554 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 15:14:54.570 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 15:14:54.573 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 15:14:54.920 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 15:14:54.938 [error] <0.465.0>@Elixir.Redeal.RabbitHandler:handle_info:90 gen_server 'Elixir.RabbitHandler' terminated with reason: call to undefined function 'Elixir.AMQP.Basic':ack/0 from 'Elixir.Redeal.RabbitHandler':handle_info/2 line 90
+2020-06-02 15:14:54.962 [error] <0.465.0>@Elixir.AMQP.Basic:ack CRASH REPORT Process 'Elixir.RabbitHandler' with 0 neighbours crashed with reason: call to undefined function 'Elixir.AMQP.Basic':ack()
+2020-06-02 15:14:54.963 [error] <0.336.0>@Elixir.AMQP.Basic:ack Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.465.0> exit with reason call to undefined function 'Elixir.AMQP.Basic':ack() in context child_terminated
+2020-06-02 15:14:55.000 [error] <0.482.0>@Elixir.Redeal.RabbitHandler:handle_info:90 gen_server 'Elixir.RabbitHandler' terminated with reason: call to undefined function 'Elixir.AMQP.Basic':ack/0 from 'Elixir.Redeal.RabbitHandler':handle_info/2 line 90
+2020-06-02 15:14:55.001 [error] <0.482.0>@Elixir.AMQP.Basic:ack CRASH REPORT Process 'Elixir.RabbitHandler' with 0 neighbours crashed with reason: call to undefined function 'Elixir.AMQP.Basic':ack()
+2020-06-02 15:14:55.002 [error] <0.336.0>@Elixir.AMQP.Basic:ack Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.482.0> exit with reason call to undefined function 'Elixir.AMQP.Basic':ack() in context child_terminated
+2020-06-02 15:14:55.036 [error] <0.497.0>@Elixir.Redeal.RabbitHandler:handle_info:90 gen_server 'Elixir.RabbitHandler' terminated with reason: call to undefined function 'Elixir.AMQP.Basic':ack/0 from 'Elixir.Redeal.RabbitHandler':handle_info/2 line 90
+2020-06-02 15:14:55.037 [error] <0.497.0>@Elixir.AMQP.Basic:ack CRASH REPORT Process 'Elixir.RabbitHandler' with 0 neighbours crashed with reason: call to undefined function 'Elixir.AMQP.Basic':ack()
+2020-06-02 15:14:55.037 [error] <0.336.0>@Elixir.AMQP.Basic:ack Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.497.0> exit with reason call to undefined function 'Elixir.AMQP.Basic':ack() in context child_terminated
+2020-06-02 15:14:55.055 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,12,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.055 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,13,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.055 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,14,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.055 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,15,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.056 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,16,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.056 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,17,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.056 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,18,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.056 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,19,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.057 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,20,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.057 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,21,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.058 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,22,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.058 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,23,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.058 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,24,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.058 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,25,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.058 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,26,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"got that">>]}} from server because channel is closing
+2020-06-02 15:14:55.059 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,27,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.059 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,28,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.059 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,29,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.059 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,30,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.061 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,31,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.061 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,32,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.061 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,33,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.061 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,34,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.061 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,35,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.061 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,36,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.062 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,37,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.062 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,38,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.062 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,39,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.063 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,40,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.063 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,41,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.063 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,42,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.063 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,43,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.064 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,44,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.064 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,45,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.064 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,46,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.064 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,47,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.064 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,48,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.065 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,49,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.065 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,50,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.065 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,51,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.066 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,52,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.066 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,53,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.067 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,54,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:55.067 [info] <0.524.0> Channel (<0.524.0>): dropping method {{'basic.deliver',<<"amq.ctag-534HYlMosibxwVLaFu8VWg">>,55,true,<<"exchange">>,<<"response">>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"Szymon">>]}} from server because channel is closing
+2020-06-02 15:14:56.067 [warning] <0.291.0> lager_error_logger_h dropped 47 messages in the last second that exceeded the limit of 50 messages/sec
+2020-06-02 15:15:12.073 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 15:15:12.080 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 15:15:12.099 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 15:15:12.106 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 15:15:12.110 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 15:15:12.128 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 15:15:12.131 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 15:15:12.165 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 15:15:12.166 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 15:15:12.178 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 15:15:12.182 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 15:15:12.429 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 15:16:18.012 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 15:16:18.021 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 15:16:18.038 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 15:16:18.045 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 15:16:18.047 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 15:16:18.056 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 15:16:18.059 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 15:16:18.102 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 15:16:18.102 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 15:16:18.110 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 15:16:18.113 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 15:16:18.397 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 15:43:08.144 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 15:43:08.152 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 15:43:08.168 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 15:43:08.175 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 15:43:08.178 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 15:43:08.193 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 15:43:08.196 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 15:43:08.232 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 15:43:08.232 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 15:43:08.240 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 15:43:08.245 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 15:43:08.496 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 15:51:03.570 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 15:51:03.585 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 15:51:03.601 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 15:51:03.607 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 15:51:03.609 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 15:51:03.616 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 15:51:03.618 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 15:51:03.655 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 15:51:03.655 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 15:51:03.664 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 15:51:03.668 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 15:51:03.924 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 15:51:53.999 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 15:51:54.007 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 15:51:54.024 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 15:51:54.030 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 15:51:54.033 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 15:51:54.041 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 15:51:54.044 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 15:51:54.093 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 15:51:54.093 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 15:51:54.100 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 15:51:54.103 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 15:51:54.367 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 15:51:59.276 [error] <0.465.0> gen_server 'Elixir.RabbitHandler' terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<32,32,32,32,32,32,32,10,32,32,32,32,32,32,32,226,153,160,84,50,10,32,32,32,32,32,32,32,226,153,161,84,54,50,10,32,32,32,32,32,32,32,226,153,162,75,74,57,56,50,10,32,32,32,32,32,32,32,226,153,163,84,56,55,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,10,226,153,160,74,57,56,55,52,32,32,32,32,32,32,32,32,226,153,160,75,51,10,226,153,161,56,53,52,32,32,32,32,32,32,32,32,32,32,226,153,161,75,74,57,10,226,153,162,54,32,...>>,...} in 'Elixir.Jason':'decode!'/2 line 78
+2020-06-02 15:51:59.297 [error] <0.465.0> CRASH REPORT Process 'Elixir.RabbitHandler' with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<32,32,32,32,32,32,32,10,32,32,32,32,32,32,32,226,153,160,84,50,10,32,32,32,32,32,32,32,226,153,161,84,54,50,10,32,32,32,32,32,32,32,226,153,162,75,74,57,56,50,10,32,32,32,32,32,32,32,226,153,163,84,56,55,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,10,226,153,160,74,57,56,55,52,32,32,32,32,32,32,32,32,226,153,160,75,51,10,226,153,161,56,53,52,32,32,32,32,32,32,32,32,32,32,226,153,161,75,74,57,10,226,153,162,54,32,...>>,...} in 'Elixir.Jason':'decode!'/2 line 78
+2020-06-02 15:51:59.298 [error] <0.336.0> Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.465.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<32,32,32,32,32,32,32,10,32,32,32,32,32,32,32,226,153,160,84,50,10,32,32,32,32,32,32,32,226,153,161,84,54,50,10,32,32,32,32,32,32,32,226,153,162,75,74,57,56,50,10,32,32,32,32,32,32,32,226,153,163,84,56,55,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,10,226,153,160,74,57,56,55,52,32,32,32,32,32,32,32,32,226,153,160,75,51,10,226,153,161,56,53,52,32,32,32,32,32,32,32,32,32,32,226,153,161,75,74,57,10,226,153,162,54,32,...>>,...} in 'Elixir.Jason':'decode!'/2 line 78 in context child_terminated
+2020-06-02 15:51:59.311 [error] <0.485.0> gen_server 'Elixir.RabbitHandler' terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<32,32,32,32,32,32,32,10,32,32,32,32,32,32,32,226,153,160,84,50,10,32,32,32,32,32,32,32,226,153,161,84,54,50,10,32,32,32,32,32,32,32,226,153,162,75,74,57,56,50,10,32,32,32,32,32,32,32,226,153,163,84,56,55,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,10,226,153,160,74,57,56,55,52,32,32,32,32,32,32,32,32,226,153,160,75,51,10,226,153,161,56,53,52,32,32,32,32,32,32,32,32,32,32,226,153,161,75,74,57,10,226,153,162,54,32,...>>,...} in 'Elixir.Jason':'decode!'/2 line 78
+2020-06-02 15:51:59.312 [error] <0.485.0> CRASH REPORT Process 'Elixir.RabbitHandler' with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<32,32,32,32,32,32,32,10,32,32,32,32,32,32,32,226,153,160,84,50,10,32,32,32,32,32,32,32,226,153,161,84,54,50,10,32,32,32,32,32,32,32,226,153,162,75,74,57,56,50,10,32,32,32,32,32,32,32,226,153,163,84,56,55,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,10,226,153,160,74,57,56,55,52,32,32,32,32,32,32,32,32,226,153,160,75,51,10,226,153,161,56,53,52,32,32,32,32,32,32,32,32,32,32,226,153,161,75,74,57,10,226,153,162,54,32,...>>,...} in 'Elixir.Jason':'decode!'/2 line 78
+2020-06-02 15:51:59.313 [error] <0.336.0> Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.485.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<32,32,32,32,32,32,32,10,32,32,32,32,32,32,32,226,153,160,84,50,10,32,32,32,32,32,32,32,226,153,161,84,54,50,10,32,32,32,32,32,32,32,226,153,162,75,74,57,56,50,10,32,32,32,32,32,32,32,226,153,163,84,56,55,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,10,226,153,160,74,57,56,55,52,32,32,32,32,32,32,32,32,226,153,160,75,51,10,226,153,161,56,53,52,32,32,32,32,32,32,32,32,32,32,226,153,161,75,74,57,10,226,153,162,54,32,...>>,...} in 'Elixir.Jason':'decode!'/2 line 78 in context child_terminated
+2020-06-02 15:51:59.326 [error] <0.500.0> gen_server 'Elixir.RabbitHandler' terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<32,32,32,32,32,32,32,10,32,32,32,32,32,32,32,226,153,160,84,50,10,32,32,32,32,32,32,32,226,153,161,84,54,50,10,32,32,32,32,32,32,32,226,153,162,75,74,57,56,50,10,32,32,32,32,32,32,32,226,153,163,84,56,55,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,10,226,153,160,74,57,56,55,52,32,32,32,32,32,32,32,32,226,153,160,75,51,10,226,153,161,56,53,52,32,32,32,32,32,32,32,32,32,32,226,153,161,75,74,57,10,226,153,162,54,32,...>>,...} in 'Elixir.Jason':'decode!'/2 line 78
+2020-06-02 15:51:59.327 [error] <0.500.0> CRASH REPORT Process 'Elixir.RabbitHandler' with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<32,32,32,32,32,32,32,10,32,32,32,32,32,32,32,226,153,160,84,50,10,32,32,32,32,32,32,32,226,153,161,84,54,50,10,32,32,32,32,32,32,32,226,153,162,75,74,57,56,50,10,32,32,32,32,32,32,32,226,153,163,84,56,55,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,10,226,153,160,74,57,56,55,52,32,32,32,32,32,32,32,32,226,153,160,75,51,10,226,153,161,56,53,52,32,32,32,32,32,32,32,32,32,32,226,153,161,75,74,57,10,226,153,162,54,32,...>>,...} in 'Elixir.Jason':'decode!'/2 line 78
+2020-06-02 15:51:59.327 [error] <0.336.0> Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.500.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<32,32,32,32,32,32,32,10,32,32,32,32,32,32,32,226,153,160,84,50,10,32,32,32,32,32,32,32,226,153,161,84,54,50,10,32,32,32,32,32,32,32,226,153,162,75,74,57,56,50,10,32,32,32,32,32,32,32,226,153,163,84,56,55,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,10,226,153,160,74,57,56,55,52,32,32,32,32,32,32,32,32,226,153,160,75,51,10,226,153,161,56,53,52,32,32,32,32,32,32,32,32,32,32,226,153,161,75,74,57,10,226,153,162,54,32,...>>,...} in 'Elixir.Jason':'decode!'/2 line 78 in context child_terminated
+2020-06-02 15:51:59.340 [error] <0.515.0> gen_server 'Elixir.RabbitHandler' terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<32,32,32,32,32,32,32,10,32,32,32,32,32,32,32,226,153,160,84,50,10,32,32,32,32,32,32,32,226,153,161,84,54,50,10,32,32,32,32,32,32,32,226,153,162,75,74,57,56,50,10,32,32,32,32,32,32,32,226,153,163,84,56,55,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,10,226,153,160,74,57,56,55,52,32,32,32,32,32,32,32,32,226,153,160,75,51,10,226,153,161,56,53,52,32,32,32,32,32,32,32,32,32,32,226,153,161,75,74,57,10,226,153,162,54,32,...>>,...} in 'Elixir.Jason':'decode!'/2 line 78
+2020-06-02 15:51:59.341 [error] <0.515.0> CRASH REPORT Process 'Elixir.RabbitHandler' with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<32,32,32,32,32,32,32,10,32,32,32,32,32,32,32,226,153,160,84,50,10,32,32,32,32,32,32,32,226,153,161,84,54,50,10,32,32,32,32,32,32,32,226,153,162,75,74,57,56,50,10,32,32,32,32,32,32,32,226,153,163,84,56,55,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,10,226,153,160,74,57,56,55,52,32,32,32,32,32,32,32,32,226,153,160,75,51,10,226,153,161,56,53,52,32,32,32,32,32,32,32,32,32,32,226,153,161,75,74,57,10,226,153,162,54,32,...>>,...} in 'Elixir.Jason':'decode!'/2 line 78
+2020-06-02 15:51:59.341 [error] <0.336.0> Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.515.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<32,32,32,32,32,32,32,10,32,32,32,32,32,32,32,226,153,160,84,50,10,32,32,32,32,32,32,32,226,153,161,84,54,50,10,32,32,32,32,32,32,32,226,153,162,75,74,57,56,50,10,32,32,32,32,32,32,32,226,153,163,84,56,55,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,10,226,153,160,74,57,56,55,52,32,32,32,32,32,32,32,32,226,153,160,75,51,10,226,153,161,56,53,52,32,32,32,32,32,32,32,32,32,32,226,153,161,75,74,57,10,226,153,162,54,32,...>>,...} in 'Elixir.Jason':'decode!'/2 line 78 in context child_terminated
+2020-06-02 15:51:59.342 [error] <0.336.0> Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.515.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-06-02 15:51:59.494 [error] <0.483.0> CRASH REPORT Process <0.483.0> with 0 neighbours exited with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"argument error">>},[{ets,lookup,[deals,deal],[]},{'Elixir.Redeal.RabbitHandler',wait_for_response,1,[{file,"lib/redeal/rabbit_handler.ex"},{line,19}]},{'Elixir.RedealWeb.DealController',get_random,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,7}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},{'Elixir.RedealWeb.DealController',phoenix_controller_pipeline,...},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130 in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 15:51:59.502 [error] <0.483.0> Cowboy stream 1 with ranch listener 'Elixir.RedealWeb.Endpoint.HTTP' and connection process <0.482.0> had its request process exit with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"argument error">>},[{ets,lookup,[deals,deal],[]},{'Elixir.Redeal.RabbitHandler',wait_for_response,1,[{file,"lib/redeal/rabbit_handler.ex"},{line,19}]},{'Elixir.RedealWeb.DealController',get_random,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,7}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},{'Elixir.RedealWeb.DealController',phoenix_controller_pipeline,...},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 15:52:04.342 [error] <0.343.0> Supervisor 'Elixir.RedealWeb.Endpoint' had child 'Elixir.Plug.Cowboy.Drainer' started with 'Elixir.Plug.Cowboy.Drainer':start_link([{refs,['Elixir.RedealWeb.Endpoint.HTTP']}]) at <0.463.0> exit with reason killed in context shutdown_error
+2020-06-02 15:52:04.343 [info] <0.44.0> Application redeal exited with reason: shutdown
+2020-06-02 15:55:01.559 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 15:55:01.642 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 15:55:01.708 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 15:55:01.724 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 15:55:01.730 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 15:55:01.745 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 15:55:01.755 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 15:55:01.847 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 15:55:01.847 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 15:55:01.871 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 15:55:01.874 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 15:55:02.235 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 15:58:43.795 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 15:58:43.810 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 15:58:43.829 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 15:58:43.837 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 15:58:43.842 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 15:58:43.866 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 15:58:43.869 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 15:58:43.912 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 15:58:43.912 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 15:58:43.919 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 15:58:43.922 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 15:58:44.198 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 15:59:24.011 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 15:59:24.018 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 15:59:24.037 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 15:59:24.044 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 15:59:24.048 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 15:59:24.057 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 15:59:24.063 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 15:59:24.105 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 15:59:24.105 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 15:59:24.123 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 15:59:24.127 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 15:59:24.400 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 16:00:40.812 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 16:00:40.820 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 16:00:40.837 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 16:00:40.843 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 16:00:40.845 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 16:00:40.853 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 16:00:40.857 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 16:00:40.900 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 16:00:40.900 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 16:00:40.916 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 16:00:40.919 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 16:00:41.246 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 16:09:53.236 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 16:09:53.252 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 16:09:53.273 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 16:09:53.278 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 16:09:53.280 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 16:09:53.287 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 16:09:53.291 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 16:09:53.332 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 16:09:53.332 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 16:09:53.339 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 16:09:53.343 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 16:09:53.638 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 17:04:44.034 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 17:04:44.041 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 17:04:44.058 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 17:04:44.065 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 17:04:44.068 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 17:04:44.075 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 17:04:44.079 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 17:04:44.118 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 17:04:44.119 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 17:04:44.125 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 17:04:44.128 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 17:04:44.387 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 17:04:55.921 [error] <0.488.0> CRASH REPORT Process <0.488.0> with 0 neighbours exited with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"argument error">>},[{erlang,binary_to_atom,[nil,utf8],[]},{'Elixir.RedealWeb.DealController',get_deal,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,8}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},{'Elixir.RedealWeb.DealController',phoenix_controller_pipeline,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130 in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 17:04:55.929 [error] <0.488.0> Cowboy stream 1 with ranch listener 'Elixir.RedealWeb.Endpoint.HTTP' and connection process <0.487.0> had its request process exit with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"argument error">>},[{erlang,binary_to_atom,[nil,utf8],[]},{'Elixir.RedealWeb.DealController',get_deal,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,8}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},{'Elixir.RedealWeb.DealController',phoenix_controller_pipeline,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 17:04:56.133 [info] <0.44.0> Application file_system started on node nonode@nohost
+2020-06-02 17:04:56.148 [info] <0.44.0> Application phoenix_live_reload started on node nonode@nohost
+2020-06-02 17:06:39.149 [error] <0.504.0> CRASH REPORT Process <0.504.0> with 0 neighbours exited with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"argument error">>},[{erlang,binary_to_atom,[nil,utf8],[]},{'Elixir.RedealWeb.DealController',get_deal,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,8}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},{'Elixir.RedealWeb.DealController',phoenix_controller_pipeline,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130 in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 17:06:39.149 [error] <0.504.0> Cowboy stream 1 with ranch listener 'Elixir.RedealWeb.Endpoint.HTTP' and connection process <0.503.0> had its request process exit with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"argument error">>},[{erlang,binary_to_atom,[nil,utf8],[]},{'Elixir.RedealWeb.DealController',get_deal,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,8}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},{'Elixir.RedealWeb.DealController',phoenix_controller_pipeline,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 17:07:43.653 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 17:07:43.667 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 17:07:43.691 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 17:07:43.698 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 17:07:43.700 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 17:07:43.707 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 17:07:43.718 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 17:07:43.755 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 17:07:43.755 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 17:07:43.771 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 17:07:43.775 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 17:07:44.037 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 17:07:49.643 [error] <0.478.0> CRASH REPORT Process <0.478.0> with 0 neighbours exited with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"argument error">>},[{erlang,binary_to_atom,[nil,utf8],[]},{'Elixir.RedealWeb.DealController',get_deal,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,7}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},{'Elixir.RedealWeb.DealController',phoenix_controller_pipeline,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130 in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 17:07:49.649 [error] <0.478.0> Cowboy stream 1 with ranch listener 'Elixir.RedealWeb.Endpoint.HTTP' and connection process <0.477.0> had its request process exit with reason: {{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"argument error">>},[{erlang,binary_to_atom,[nil,utf8],[]},{'Elixir.RedealWeb.DealController',get_deal,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,7}]},{'Elixir.RedealWeb.DealController',action,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},{'Elixir.RedealWeb.DealController',phoenix_controller_pipeline,2,[{file,"lib/redeal_web/controllers/deal_controller.ex"},{line,1}]},...]},...} in 'Elixir.Phoenix.Endpoint.Cowboy2Handler':exit_on_error/4 line 130
+2020-06-02 17:07:49.859 [info] <0.44.0> Application file_system started on node nonode@nohost
+2020-06-02 17:07:49.873 [info] <0.44.0> Application phoenix_live_reload started on node nonode@nohost
+2020-06-02 17:08:36.617 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 17:08:36.625 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 17:08:36.649 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 17:08:36.674 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 17:08:36.677 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 17:08:36.687 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 17:08:36.691 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 17:08:36.746 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 17:08:36.746 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 17:08:36.757 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 17:08:36.767 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 17:08:37.045 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 17:08:38.565 [info] <0.44.0> Application file_system started on node nonode@nohost
+2020-06-02 17:08:38.583 [info] <0.44.0> Application phoenix_live_reload started on node nonode@nohost
+2020-06-02 17:08:40.190 [error] <0.485.0>@lists:reverse:147 CRASH REPORT Process <0.485.0> with 0 neighbours crashed with reason: no function clause matching lists:reverse(nil) line 147
+2020-06-02 17:08:40.191 [error] <0.482.0>@lists:reverse:147 Supervisor {<0.482.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.48>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.484.0>, {<<"client 127.0.0.1:55550 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.485.0> exit with reason no function clause matching lists:reverse(nil) line 147 in context child_terminated
+2020-06-02 17:08:40.191 [error] <0.482.0> Supervisor {<0.482.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.48>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.484.0>, {<<"client 127.0.0.1:55550 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.485.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-06-02 17:08:45.633 [error] <0.470.0>@gen_server:call gen_server 'Elixir.RabbitHandler' terminated with reason: no such process or port in call to gen_server:call(<0.484.0>, {close,200,<<"Goodbye">>}, 60000) in gen_server:call/3 line 246
+2020-06-02 17:08:45.646 [error] <0.470.0>@gen_server:call CRASH REPORT Process 'Elixir.RabbitHandler' with 0 neighbours exited with reason: no such process or port in call to gen_server:call(<0.484.0>, {close,200,<<"Goodbye">>}, 60000) in gen_server:call/3 line 246
+2020-06-02 17:08:45.646 [error] <0.341.0>@gen_server:call Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.470.0> exit with reason no such process or port in call to gen_server:call(<0.484.0>, {close,200,<<"Goodbye">>}, 60000) in context child_terminated
+2020-06-02 17:10:15.039 [error] <0.513.0>@lists:reverse:147 Supervisor {<0.513.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.52>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.515.0>, {<<"client 127.0.0.1:55555 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.516.0> exit with reason no function clause matching lists:reverse(nil) line 147 in context child_terminated
+2020-06-02 17:10:15.040 [error] <0.513.0> Supervisor {<0.513.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.52>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.515.0>, {<<"client 127.0.0.1:55555 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.516.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-06-02 17:10:15.041 [error] emulator Error in process <0.516.0> with exit value:
+{function_clause,[{lists,reverse,[nil],[{file,"lists.erl"},{line,147}]},{rabbit_binary_generator,build_content_frames,3,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,81}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,340}]},{rabbit_writer,internal_send_command_async,3,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,371}]},{rabbit_writer,handle_message,3,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,238}]},{rabbit_writer,mainloop1,2,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,222}]},{rabbit_writer,mainloop,2,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]}
+2020-06-02 17:11:51.943 [error] <0.503.0>@gen_server:call gen_server 'Elixir.RabbitHandler' terminated with reason: no such process or port in call to gen_server:call(<0.515.0>, {close,200,<<"Goodbye">>}, 60000) in gen_server:call/3 line 246
+2020-06-02 17:11:51.945 [error] <0.503.0>@gen_server:call CRASH REPORT Process 'Elixir.RabbitHandler' with 0 neighbours exited with reason: no such process or port in call to gen_server:call(<0.515.0>, {close,200,<<"Goodbye">>}, 60000) in gen_server:call/3 line 246
+2020-06-02 17:11:51.946 [error] <0.341.0>@gen_server:call Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.503.0> exit with reason no such process or port in call to gen_server:call(<0.515.0>, {close,200,<<"Goodbye">>}, 60000) in context child_terminated
+2020-06-02 17:12:15.888 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 17:12:15.897 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 17:12:15.924 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 17:12:15.931 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 17:12:15.934 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 17:12:15.945 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 17:12:15.953 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 17:12:15.991 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 17:12:15.991 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 17:12:16.007 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 17:12:16.011 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 17:12:16.265 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 17:12:27.354 [error] <0.454.0>@lists:reverse:147 Supervisor {<0.454.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.7>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.456.0>, {<<"client 127.0.0.1:55581 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.457.0> exit with reason no function clause matching lists:reverse(nil) line 147 in context child_terminated
+2020-06-02 17:12:27.354 [error] <0.454.0> Supervisor {<0.454.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.7>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.456.0>, {<<"client 127.0.0.1:55581 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.457.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-06-02 17:12:27.355 [error] emulator Error in process <0.457.0> with exit value:
+{function_clause,[{lists,reverse,[nil],[{file,"lists.erl"},{line,147}]},{rabbit_binary_generator,build_content_frames,3,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,81}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,340}]},{rabbit_writer,internal_send_command_async,3,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,371}]},{rabbit_writer,handle_message,3,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,238}]},{rabbit_writer,mainloop1,2,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,222}]},{rabbit_writer,mainloop,2,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]}
+2020-06-02 17:13:29.892 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 17:13:29.901 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 17:13:29.919 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 17:13:29.926 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 17:13:29.929 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 17:13:29.938 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 17:13:29.942 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 17:13:29.976 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 17:13:29.976 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 17:13:29.984 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 17:13:29.987 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 17:13:30.197 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 17:13:31.437 [error] <0.480.0>@lists:reverse:147 CRASH REPORT Process <0.480.0> with 0 neighbours crashed with reason: no function clause matching lists:reverse(nil) line 147
+2020-06-02 17:13:31.437 [error] <0.477.0>@lists:reverse:147 Supervisor {<0.477.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.50>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.479.0>, {<<"client 127.0.0.1:55591 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.480.0> exit with reason no function clause matching lists:reverse(nil) line 147 in context child_terminated
+2020-06-02 17:13:31.438 [error] <0.477.0> Supervisor {<0.477.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.50>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.479.0>, {<<"client 127.0.0.1:55591 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.480.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-06-02 17:13:37.856 [error] <0.465.0>@gen_server:call gen_server 'Elixir.RabbitHandler' terminated with reason: no such process or port in call to gen_server:call(<0.479.0>, {close,200,<<"Goodbye">>}, 60000) in gen_server:call/3 line 246
+2020-06-02 17:13:37.873 [error] <0.465.0>@gen_server:call CRASH REPORT Process 'Elixir.RabbitHandler' with 0 neighbours exited with reason: no such process or port in call to gen_server:call(<0.479.0>, {close,200,<<"Goodbye">>}, 60000) in gen_server:call/3 line 246
+2020-06-02 17:13:37.874 [error] <0.336.0>@gen_server:call Supervisor 'Elixir.Redeal.Supervisor' had child 'Elixir.Redeal.RabbitHandler' started with 'Elixir.Redeal.RabbitHandler':start_link([]) at <0.465.0> exit with reason no such process or port in call to gen_server:call(<0.479.0>, {close,200,<<"Goodbye">>}, 60000) in context child_terminated
+2020-06-02 17:14:38.932 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 17:14:38.940 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 17:14:38.956 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 17:14:38.961 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 17:14:38.963 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 17:14:38.970 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 17:14:38.973 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 17:14:39.007 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 17:14:39.007 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 17:14:39.014 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 17:14:39.017 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 17:14:39.286 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 17:14:44.771 [error] <0.482.0>@lists:reverse:147 Supervisor {<0.482.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.48>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.484.0>, {<<"client 127.0.0.1:55597 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.485.0> exit with reason no function clause matching lists:reverse(nil) line 147 in context child_terminated
+2020-06-02 17:14:44.772 [error] <0.482.0> Supervisor {<0.482.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.48>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.484.0>, {<<"client 127.0.0.1:55597 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.485.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-06-02 17:14:44.772 [error] emulator Error in process <0.485.0> with exit value:
+{function_clause,[{lists,reverse,[nil],[{file,"lists.erl"},{line,147}]},{rabbit_binary_generator,build_content_frames,3,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,81}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,340}]},{rabbit_writer,internal_send_command_async,3,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,371}]},{rabbit_writer,handle_message,3,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,238}]},{rabbit_writer,mainloop1,2,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,222}]},{rabbit_writer,mainloop,2,[{file,"/Users/krzysztofmakiela/studia/komponentowe/projekt/redeal/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]}
+2020-06-02 17:15:18.047 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 17:15:18.056 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 17:15:18.071 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 17:15:18.077 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 17:15:18.080 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 17:15:18.086 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 17:15:18.088 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 17:15:18.122 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 17:15:18.122 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 17:15:18.129 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 17:15:18.132 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 17:15:18.392 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 17:24:33.243 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 17:24:33.257 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 17:24:33.305 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 17:24:33.337 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 17:24:33.342 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 17:24:33.356 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 17:24:33.360 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 17:24:33.440 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 17:24:33.440 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 17:24:33.454 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 17:24:33.460 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 17:24:33.602 [error] <0.367.0> Failed to start Ranch listener 'Elixir.RedealWeb.Endpoint.HTTP' in ranch_tcp:listen([{cacerts,'...'},{key,'...'},{cert,'...'},{port,4000}]) for reason eaddrinuse (address already in use)
+2020-06-02 17:27:51.061 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 17:27:51.068 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 17:27:51.083 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 17:27:51.089 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 17:27:51.091 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 17:27:51.098 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 17:27:51.101 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 17:27:51.137 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 17:27:51.138 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 17:27:51.148 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 17:27:51.152 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 17:27:51.237 [error] <0.339.0> Failed to start Ranch listener 'Elixir.RedealWeb.Endpoint.HTTP' in ranch_tcp:listen([{cacerts,'...'},{key,'...'},{cert,'...'},{port,4000}]) for reason eaddrinuse (address already in use)
+2020-06-02 17:29:44.204 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 17:29:44.211 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 17:29:44.230 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 17:29:44.238 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 17:29:44.244 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 17:29:44.254 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 17:29:44.257 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 17:29:44.289 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 17:29:44.289 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 17:29:44.302 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 17:29:44.306 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 17:29:44.377 [error] <0.339.0> Failed to start Ranch listener 'Elixir.RedealWeb.Endpoint.HTTP' in ranch_tcp:listen([{cacerts,'...'},{key,'...'},{cert,'...'},{port,4000}]) for reason eaddrinuse (address already in use)
+2020-06-02 17:36:31.208 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 17:36:31.216 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 17:36:31.238 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 17:36:31.250 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 17:36:31.253 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 17:36:31.262 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 17:36:31.266 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 17:36:31.312 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 17:36:31.312 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 17:36:31.319 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 17:36:31.322 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 17:36:31.597 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 17:40:34.280 [warning] <0.445.0> Connection (<0.445.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-06-02 17:43:26.076 [info] <0.60.0> SIGTERM received - shutting down
+2020-06-02 17:44:45.551 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 17:44:45.560 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 17:44:45.579 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 17:44:45.585 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 17:44:45.588 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 17:44:45.605 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 17:44:45.608 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 17:44:45.650 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 17:44:45.650 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 17:44:45.663 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 17:44:45.668 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 17:44:45.949 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 17:45:37.087 [warning] <0.445.0> Connection (<0.445.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-06-02 17:45:37.238 [info] <0.60.0> SIGTERM received - shutting down
+2020-06-02 17:46:52.587 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-06-02 17:46:52.598 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-06-02 17:46:52.619 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-06-02 17:46:52.634 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-06-02 17:46:52.636 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-06-02 17:46:52.643 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-06-02 17:46:52.646 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-06-02 17:46:52.680 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-06-02 17:46:52.680 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-06-02 17:46:52.689 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-06-02 17:46:52.691 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-06-02 17:46:52.928 [info] <0.44.0> Application redeal started on node nonode@nohost
+2020-06-02 17:47:29.569 [warning] <0.445.0> Connection (<0.445.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-06-02 17:47:29.723 [info] <0.60.0> SIGTERM received - shutting down
+2020-06-02 17:47:34.723 [error] <0.320.0> Supervisor 'Elixir.RedealWeb.Endpoint' had child 'Elixir.Plug.Cowboy.Drainer' started with 'Elixir.Plug.Cowboy.Drainer':start_link([{refs,['Elixir.RedealWeb.Endpoint.HTTP']}]) at <0.440.0> exit with reason killed in context shutdown_error
